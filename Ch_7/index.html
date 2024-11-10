@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seventh Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Chapter # 7 - Forms</h1>
+<form action="http://example.com/login.php" method="get">
+<fieldset>
+    <legend>Your Details:</legend>
+    <label>Name: <input type="text" name="Name" maxlength="30"> </label>
+    <br />
+    <br />
+    <label>Email: <input type="text" name="Email" maxlength="30"> </label>
+</fieldset>
+
+<br />
+
+<fieldset>
+    <legend>Your Review:</legend>
+    <label>How did you hear about us? 
+        <select name="markiting">
+            <option value="Gl">Google</option>
+            <option value="Ins">Instagram</option>
+            <option value="Fb">Facebook</option>
+            <option value="W">WhatsApp</option>
+        </select>
+
+        <p>Would you visit agian?</p>
+        
+        <input type="radio" name="visitInterest" value="Y"> Yes
+        <input type="radio" name="visitInterest" value="N"> No
+        <input type="radio" name="visitInterest" value="Maybe"> Maybe
+
+        <p>Comments:</p>
+        <textarea name="Comments"></textarea>
+
+        <br />
+
+        <input type="checkbox" name="signup" value="sigup"> Sign me up for email updates
+
+<br />
+
+        <button type="submit">Submit Review</button> 
+
+    </label>
+
+</fieldset>
+</form>
+</body>
+</html>
