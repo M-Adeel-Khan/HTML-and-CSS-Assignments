@@ -1,0 +1,29 @@
+
+#logo{
+    width: 200px;
+    height: 250px;
+}
+
+#Cld-pic{
+width: 800px;
+
+}
+
+#AI-pic{
+width: 400px;
+}
+
+#BC-pic{
+width: 400px;
+}
+
+#Wd-pic{
+width: 400px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10%;
+
+}
